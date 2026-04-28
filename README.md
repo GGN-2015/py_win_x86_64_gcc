@@ -26,6 +26,7 @@ from py_win_x86_64_gcc import get_all_tools, get_tool
 print(get_all_tools())
 
 # Get filepath for certain tool (like g++, gcc etc.)
+print(get_tool("7zr"))
 print(get_tool("g++"))
 print(get_tool("gcc"))
 
