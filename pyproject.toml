@@ -1,0 +1,19 @@
+[project]
+name = "py-win-x86-64-gcc"
+version = "0.1.0"
+description = "Download tools from w64devkit with Python."
+authors = [
+    {name = "GGN_2015",email = "neko@jlulug.org"}
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+]
+
+[tool.poetry]
+exclude = ["py_win_x86_64_gcc/data_pack/w64devkit/"]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

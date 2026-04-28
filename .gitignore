@@ -2,9 +2,13 @@
 __pycache__/
 *.py[codz]
 *$py.class
+py_win_x86_64_gcc/data_pack/w64devkit/
+.vscode/
+settings.json
 
 # C extensions
 *.so
+test_gcc.exe
 
 # Distribution / packaging
 .Python
