@@ -42,9 +42,9 @@ def get_gcc_bin_folder(force_unzip:bool=False) -> Optional[str]:
 
 def get_all_tools(force_unzip:bool=False) -> list[str]:
     if unzip(force_unzip):
-        return os.listdir(GCC_BIN_FOLDER)
+        return sorted(list(os.listdir(GCC_BIN_FOLDER)) + ["7zr.exe"])
     else:
-        return []
+        return ["7zr.exe"]
 
 def get_tool(tool_name:str, force_unzip:bool=False) -> Optional[str]:
     unzip(force_unzip)

@@ -1,6 +1,6 @@
 [project]
 name = "py-win-x86-64-gcc"
-version = "0.1.0"
+version = "0.1.1"
 description = "Download tools from w64devkit with Python."
 authors = [
     {name = "GGN_2015",email = "neko@jlulug.org"}
